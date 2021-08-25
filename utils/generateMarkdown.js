@@ -6,7 +6,7 @@ function renderLicenseBadge(license) {
     } if (license === Boost) {
    return `[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)]`;
     } if (license === MIT) {
-   return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]`;
+   return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]`;  
     } else {
       return 'No license was used.'
     }
