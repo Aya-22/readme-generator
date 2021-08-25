@@ -39,7 +39,7 @@ const questions = [
       type: 'list',
       name: 'license',
       message: 'Do you need a license?',
-      choices: ['None', 'Apache 2.0 License', 'Boost Software License 1.0', 'BSD 3-Clause License', 'CC0', 'Attribution 4.0 International', 'Attribution-ShareAlike 4.0 International'],
+      choices: ['None', 'Apache 2.0 License', 'Boost Software License 1.0', 'MIT'],
     },
     {
         type: 'input',

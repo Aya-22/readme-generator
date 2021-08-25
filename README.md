@@ -1,26 +1,27 @@
-# kdjfkashdkfljasd       
+# readme-generator       
   
   ## Description
-  sdfhsadjkfhasjkdhf
+  
   
   
   ## Table of Contents (Optional)
-  fkasjdfkljas;kdfj
+  
  
   ## Installation
-  fanskdfjklsjie
+  
   
   ## Usage
-  fasjdklfjkalsjdf
+  
   
   ## Credits
-  fkajsldkfjkl;asdjf
+  
  
   ## License
-  Apache 2.0 License
+  Boost Software License 1.0
  
   ## Badges
- 
+  [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)]
+
   ## Features
   
   ## How to Contribute
