@@ -15,6 +15,12 @@ const questions = [
       message: 'What is your project about? What was your motivation? Why did you build this project? What did you learn?',
     },
     {
+        type: 'input',
+      name: 'content',
+      message: 'Add a table of contents to make it easy for users to find what they need. (Optional)',
+
+    },
+    {
       type: 'input',
       name: 'installation',
       message: 'What are the steps required to install your project?',

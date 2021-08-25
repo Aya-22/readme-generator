@@ -1,9 +1,16 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-    if (!license) {
-
+    if (license === Apache) {
+   return `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]`;
+    } if (license === Boost) {
+   return `[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)]`;
+    } if (license === MIT) {
+   return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]`;
+    } else {
+      return 'No license was used.'
     }
+  
 
 }
 
@@ -21,7 +28,36 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}\n## ${data.description}`;
+  return `# ${data.title}       
+  
+  ## Description
+  ${data.description}
+  
+  
+  ## Table of Contents (Optional)
+  ${data.content}
+ 
+  ## Installation
+  ${data.installation}
+  
+  ## Usage
+  ${data.usage}
+  
+  ## Credits
+  ${data.credits}
+ 
+  ## License
+  ${data.license}
+ 
+  ## Badges
+  ${renderLicenseBadge(data.license)}
+
+  ## Features
+  
+  ## How to Contribute
+  
+  ## Tests
+  `;
 }
 
 module.exports = generateMarkdown;
